@@ -96,7 +96,7 @@ class _HomeState extends State<Home> {
       //isBarrierTouched check for barrier one
       setState(() {
         if (barrierXOne < -0.20 && barrierXOne > -0.75) {
-          if (birdYaxis < -0.33 || birdYaxis > 0.33) {
+          if (birdYaxis < -0.33 || birdYaxis > 0.35) {
             isBarrierTouched = true;
           }
         }
@@ -105,7 +105,7 @@ class _HomeState extends State<Home> {
       //isBarrierTouched check for barrier two
       setState(() {
         if (barrierXTwo < -0.19 && barrierXTwo > -0.74) {
-          if (birdYaxis < 0.095 || birdYaxis > 0.63) {
+          if (birdYaxis < -0.005 || birdYaxis > 0.65) {
             isBarrierTouched = true;
           }
         }
