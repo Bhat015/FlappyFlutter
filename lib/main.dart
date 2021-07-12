@@ -1,4 +1,4 @@
-import 'package:flappy_flutter/components/home/home.dart';
+import 'package:flappy_flutter/game/game.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: Game(),
     );
   }
 }
